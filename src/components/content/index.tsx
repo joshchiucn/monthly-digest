@@ -4,10 +4,12 @@ import data from '../../data'
 function Content (): React.ReactNode {
   return (
     <div>
-      <ul>
+      <ul className="month-list">
         {
           data.map(item => (
-            <li></li>
+            <li className="month">
+              <MonthItem months={item}/>
+            </li>
           ))
         }
         <li></li>
