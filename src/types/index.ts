@@ -12,3 +12,9 @@ export interface MonthData {
   time: string,
   data: Item[]
 }
+
+export interface SiteItem {
+  name: string,
+  link: string,
+  description: string
+}
