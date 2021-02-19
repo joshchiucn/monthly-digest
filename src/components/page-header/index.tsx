@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css'
-import Tab from './components/tab'
-import Slogan from './components/slogan'
+import Tab from '../tab/index'
+import Slogan from '../slogan/index'
 function PageHeader () {
   return (
     <div className="page-header ">

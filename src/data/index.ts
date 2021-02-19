@@ -14,7 +14,7 @@ const data: MonthData[] = [
     data: [
       {
         name: 'All you need to know about third-party cookies',
-        description: '',
+        description: '三方cookie利与弊',
         link: 'https://cookie-script.com/all-you-need-to-know-about-third-party-cookies.html',
         tags: ['网络通识'],
         source: ''
