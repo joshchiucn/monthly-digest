@@ -12,7 +12,7 @@ import {
 function App() {
   return (
     <Router>
-      <div className="App max-w-3xl mx-auto">
+      <div className="App max-w-3xl mx-auto pb-6">
         <PageHeader/>
         <Switch>
           <Route path="/sites">
