@@ -18,3 +18,9 @@ export interface SiteItem {
   link: string,
   description: string
 }
+
+export interface Donation {
+  name: string,
+  icon: string,
+  amount: number
+}

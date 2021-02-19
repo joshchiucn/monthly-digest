@@ -3,6 +3,7 @@ import './App.css';
 import PageHeader from './components/page-header/index'
 import Articles from './components/content/index'
 import Sites from './components/sites/index'
+import Donators from './components/donators/index'
 import {
   BrowserRouter as Router,
   Switch,
@@ -21,6 +22,7 @@ function App() {
             <Articles/>
           </Route>
         </Switch>
+        <Donators/>
       </div>
     </Router>
   );
