@@ -5,7 +5,7 @@ import Articles from './components/content/index'
 import Sites from './components/sites/index'
 import Donators from './components/donators/index'
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
