@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { FunctionComponent } from 'react'
 import {
   Link
 } from "react-router-dom";
@@ -15,7 +15,7 @@ const tabs: TabItem[] = [
     url: '/sites'
   }
 ]
-function Tab () {
+const Tab: FunctionComponent = () => {
   return (
     <div className="tabs py-2">
       <ul className="tabs-list flex px-5">

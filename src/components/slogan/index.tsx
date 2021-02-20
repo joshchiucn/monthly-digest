@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { FunctionComponent } from 'react'
 
-export default function Slogan () {
+const Slogan: FunctionComponent = () => {
   return (
     <div className="slogan text-left text-white mt-10 pl-5 pb-5">
       <h2>我的</h2>
@@ -8,3 +8,4 @@ export default function Slogan () {
     </div>
   )
 }
+export default Slogan

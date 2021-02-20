@@ -1,6 +1,6 @@
-import React from 'react'
+import React, { FunctionComponent } from 'react'
 import { sites } from '../../data/index'
-const Sites = () => (
+const Sites: FunctionComponent = () => (
   <div className="sites text-left">
     <ul>
       {
