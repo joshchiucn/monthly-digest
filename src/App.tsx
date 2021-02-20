@@ -1,5 +1,4 @@
 import React, { FunctionComponent } from 'react';
-import './App.css';
 import PageHeader from './components/page-header/index'
 import Articles from './components/content/index'
 import Sites from './components/sites/index'
