@@ -1,6 +1,7 @@
 import React, { FunctionComponent } from 'react'
 import MonthItem from '../month-item/index'
 import data from '../../data'
+import './style.scss'
 const Content: FunctionComponent = () => (
   <div>
     <ul className="month-list">
