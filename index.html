@@ -1,1 +1,188 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/monthly-digest/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="apple-touch-icon" href="/monthly-digest/logo.png"/><link rel="manifest" href="/monthly-digest/manifest.json"/><title>文章收藏</title><link href="/monthly-digest/static/css/2.13155244.chunk.css" rel="stylesheet"><link href="/monthly-digest/static/css/main.993bbb1e.chunk.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script>!function(e){function t(t){for(var n,i,a=t[0],c=t[1],l=t[2],f=0,p=[];f<a.length;f++)i=a[f],Object.prototype.hasOwnProperty.call(o,i)&&o[i]&&p.push(o[i][0]),o[i]=0;for(n in c)Object.prototype.hasOwnProperty.call(c,n)&&(e[n]=c[n]);for(s&&s(t);p.length;)p.shift()();return u.push.apply(u,l||[]),r()}function r(){for(var e,t=0;t<u.length;t++){for(var r=u[t],n=!0,a=1;a<r.length;a++){var c=r[a];0!==o[c]&&(n=!1)}n&&(u.splice(t--,1),e=i(i.s=r[0]))}return e}var n={},o={1:0},u=[];function i(t){if(n[t])return n[t].exports;var r=n[t]={i:t,l:!1,exports:{}};return e[t].call(r.exports,r,r.exports,i),r.l=!0,r.exports}i.e=function(e){var t=[],r=o[e];if(0!==r)if(r)t.push(r[2]);else{var n=new Promise((function(t,n){r=o[e]=[t,n]}));t.push(r[2]=n);var u,a=document.createElement("script");a.charset="utf-8",a.timeout=120,i.nc&&a.setAttribute("nonce",i.nc),a.src=function(e){return i.p+"static/js/"+({}[e]||e)+"."+{3:"8112e538"}[e]+".chunk.js"}(e);var c=new Error;u=function(t){a.onerror=a.onload=null,clearTimeout(l);var r=o[e];if(0!==r){if(r){var n=t&&("load"===t.type?"missing":t.type),u=t&&t.target&&t.target.src;c.message="Loading chunk "+e+" failed.\n("+n+": "+u+")",c.name="ChunkLoadError",c.type=n,c.request=u,r[1](c)}o[e]=void 0}};var l=setTimeout((function(){u({type:"timeout",target:a})}),12e4);a.onerror=a.onload=u,document.head.appendChild(a)}return Promise.all(t)},i.m=e,i.c=n,i.d=function(e,t,r){i.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},i.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.t=function(e,t){if(1&t&&(e=i(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(i.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var n in e)i.d(r,n,function(t){return e[t]}.bind(null,n));return r},i.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return i.d(t,"a",t),t},i.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},i.p="/monthly-digest/",i.oe=function(e){throw console.error(e),e};var a=this["webpackJsonpmontyly-digest"]=this["webpackJsonpmontyly-digest"]||[],c=a.push.bind(a);a.push=t,a=a.slice();for(var l=0;l<a.length;l++)t(a[l]);var s=c;r()}([])</script><script src="/monthly-digest/static/js/2.f793d9fb.chunk.js"></script><script src="/monthly-digest/static/js/main.09085908.chunk.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="icon" href="/monthly-digest/favicon.ico">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#000000">
+  <meta name="description" content="Web site created using create-react-app">
+  <link rel="apple-touch-icon" href="/monthly-digest/logo.png">
+  <link rel="manifest" href="/monthly-digest/manifest.json">
+  <title>文章收藏</title>
+  <link href="/monthly-digest/static/css/2.13155244.chunk.css" rel="stylesheet">
+  <link href="/monthly-digest/static/css/main.c6ccc5ef.chunk.css" rel="stylesheet">
+</head>
+
+<body><noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root">
+    <div class="App max-w-3xl mx-auto pb-6">
+      <div class="page-header ">
+        <div class="tabs py-2">
+          <ul class="tabs-list flex px-5">
+            <li
+              class="tabs-item py-2 px-5 mr-2 rounded text-white font-bold text-xl hover:bg-gray-300 hover:bg-opacity-50 active:bg-gray-300 active:bg-opacity-50">
+              <a href="#/">文章</a></li>
+            <li
+              class="tabs-item py-2 px-5 mr-2 rounded text-white font-bold text-xl hover:bg-gray-300 hover:bg-opacity-50 active:bg-gray-300 active:bg-opacity-50">
+              <a href="#/sites">站点</a></li>
+          </ul>
+        </div>
+        <div class="slogan text-left text-white mt-10 pl-5 pb-3">
+          <h2>我的</h2>
+          <h1 class="mb-0 mt-2 font-bold text-3xl tracking-wide">技术文章收藏</h1>
+        </div>
+      </div>
+      <div>
+        <ul class="month-list">
+          <li class="month">
+            <div class="month-item p-4">
+              <div class="time text-left text-gray-500 italic ">2021-02</div>
+              <ul class="article-list">
+                <li>
+                  <div class="item text-left py-2 mb-3"><a
+                      href="https://cookie-script.com/all-you-need-to-know-about-third-party-cookies.html">
+                      <h5 class="item_title text-gray-900 hover:text-red-600 font-bold text-xl">All you need to know
+                        about third-party cookies</h5>
+                    </a>
+                    <div class="item_tags flex mt-2 text-sm">分类：<ul class="flex">
+                        <li class="mr-1">网络通识</li>
+                      </ul>
+                    </div>
+                    <p class="text-gray-500 mt-2">三方cookie利与弊</p>
+                    <div class="source mt-2 text-gray-500">来源：</div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li class="month">
+            <div class="month-item p-4">
+              <div class="time text-left text-gray-500 italic ">2021-01</div>
+              <ul class="article-list">
+                <li>
+                  <div class="item text-left py-2 mb-3"><a href="https://juejin.cn/post/6844903520865386510">
+                      <h5 class="item_title text-gray-900 hover:text-red-600 font-bold text-xl">
+                        import、require、export、module.exports 混合使用详解</h5>
+                    </a>
+                    <div class="item_tags flex mt-2 text-sm">分类：<ul class="flex">
+                        <li class="mr-1">js</li>
+                      </ul>
+                    </div>
+                    <div class="source mt-2 text-gray-500">来源：
+                      <!-- -->掘金
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="item text-left py-2 mb-3"><a href="https://juejin.cn/post/6844903588607557639">
+                      <h5 class="item_title text-gray-900 hover:text-red-600 font-bold text-xl">
+                        带你走进webpack世界，成为webpack头号玩家。</h5>
+                    </a>
+                    <div class="item_tags flex mt-2 text-sm">分类：<ul class="flex">
+                        <li class="mr-1">js</li>
+                      </ul>
+                    </div>
+                    <div class="source mt-2 text-gray-500">来源：
+                      <!-- -->掘金
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="item text-left py-2 mb-3"><a
+                      href="https://github.com/ryanmcdermott/clean-code-javascript#encapsulate-conditionals">
+                      <h5 class="item_title text-gray-900 hover:text-red-600 font-bold text-xl">代码整洁之道 js版</h5>
+                    </a>
+                    <div class="item_tags flex mt-2 text-sm">分类：<ul class="flex">
+                        <li class="mr-1">js</li>
+                        <li class="mr-1">代码规范</li>
+                      </ul>
+                    </div>
+                    <div class="source mt-2 text-gray-500">来源：
+                      <!-- -->github
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li></li>
+        </ul>
+      </div>
+      <div class="donators text-left bg-gray-100 rounded-sm py-3 px-8 md:py-6 md:px-16">
+        <h4 class="text-xl font-medium text-gray-800">财政贡献者排行</h4>
+        <h5 class="text-gray-500 mt-4">组织</h5>
+        <ol class="mt-2 grid grid-cols-1 md:grid-cols-2 gap-y-2">
+          <li class="item flex">
+            <div class="item_name flex flex-shrink-0 items-center h-8 justify-between pl-4 pr-1 bg-white rounded-3xl">
+              <div class="text-xs text-gray-400">1</div><img
+                src="https://images.opencollective.com/microsoftedge/503102e/logo.png" alt="Microsoft Edge"
+                class="w-7 ml-3">
+            </div>
+            <div class="ml-2">
+              <h6 class="text-base font-medium">Microsoft Edge</h6>
+              <div class="text-xs text-gray-500">$250k USD</div>
+            </div>
+          </li>
+          <li class="item flex">
+            <div class="item_name flex flex-shrink-0 items-center h-8 justify-between pl-4 pr-1 bg-white rounded-3xl">
+              <div class="text-xs text-gray-400">2</div><img
+                src="https://images.opencollective.com/google/9d8073c/logo.png" alt="Google Open Source"
+                class="w-7 ml-3">
+            </div>
+            <div class="ml-2">
+              <h6 class="text-base font-medium">Google Open Source</h6>
+              <div class="text-xs text-gray-500">$250k USD</div>
+            </div>
+          </li>
+          <li class="item flex">
+            <div class="item_name flex flex-shrink-0 items-center h-8 justify-between pl-4 pr-1 bg-white rounded-3xl">
+              <div class="text-xs text-gray-400">3</div><img
+                src="https://images.opencollective.com/coilhq/ea92e4d/logo.png" alt="Coil" class="w-7 ml-3">
+            </div>
+            <div class="ml-2">
+              <h6 class="text-base font-medium">Coil</h6>
+              <div class="text-xs text-gray-500">$100k USD</div>
+            </div>
+          </li>
+          <li class="item flex">
+            <div class="item_name flex flex-shrink-0 items-center h-8 justify-between pl-4 pr-1 bg-white rounded-3xl">
+              <div class="text-xs text-gray-400">4</div><img
+                src="https://images.opencollective.com/igalia/dd7aa72/logo.png" alt="Igalia" class="w-7 ml-3">
+            </div>
+            <div class="ml-2">
+              <h6 class="text-base font-medium">Igalia</h6>
+              <div class="text-xs text-gray-500">$20k USD</div>
+            </div>
+          </li>
+          <li class="item flex">
+            <div class="item_name flex flex-shrink-0 items-center h-8 justify-between pl-4 pr-1 bg-white rounded-3xl">
+              <div class="text-xs text-gray-400">5</div><img
+                src="https://images.opencollective.com/typeofweb/2c75cc0/logo.png" alt="Type of Web" class="w-7 ml-3">
+            </div>
+            <div class="ml-2">
+              <h6 class="text-base font-medium">Type of Web</h6>
+              <div class="text-xs text-gray-500">$106 USD</div>
+            </div>
+          </li>
+          <li class="item flex">
+            <div class="item_name flex flex-shrink-0 items-center h-8 justify-between pl-4 pr-1 bg-white rounded-3xl">
+              <div class="text-xs text-gray-400">6</div><img
+                src="https://images.opencollective.com/opencollective/019a512/logo.png" alt="Open Collective"
+                class="w-7 ml-3">
+            </div>
+            <div class="ml-2">
+              <h6 class="text-base font-medium">Open Collective</h6>
+              <div class="text-xs text-gray-500">$105 USD</div>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </div>
+  <script>!function (e) { function t(t) { for (var n, i, a = t[0], c = t[1], l = t[2], f = 0, p = []; f < a.length; f++)i = a[f], Object.prototype.hasOwnProperty.call(o, i) && o[i] && p.push(o[i][0]), o[i] = 0; for (n in c) Object.prototype.hasOwnProperty.call(c, n) && (e[n] = c[n]); for (s && s(t); p.length;)p.shift()(); return u.push.apply(u, l || []), r() } function r() { for (var e, t = 0; t < u.length; t++) { for (var r = u[t], n = !0, a = 1; a < r.length; a++) { var c = r[a]; 0 !== o[c] && (n = !1) } n && (u.splice(t--, 1), e = i(i.s = r[0])) } return e } var n = {}, o = { 1: 0 }, u = []; function i(t) { if (n[t]) return n[t].exports; var r = n[t] = { i: t, l: !1, exports: {} }; return e[t].call(r.exports, r, r.exports, i), r.l = !0, r.exports } i.e = function (e) { var t = [], r = o[e]; if (0 !== r) if (r) t.push(r[2]); else { var n = new Promise((function (t, n) { r = o[e] = [t, n] })); t.push(r[2] = n); var u, a = document.createElement("script"); a.charset = "utf-8", a.timeout = 120, i.nc && a.setAttribute("nonce", i.nc), a.src = function (e) { return i.p + "static/js/" + ({}[e] || e) + "." + { 3: "2ee560d9" }[e] + ".chunk.js" }(e); var c = new Error; u = function (t) { a.onerror = a.onload = null, clearTimeout(l); var r = o[e]; if (0 !== r) { if (r) { var n = t && ("load" === t.type ? "missing" : t.type), u = t && t.target && t.target.src; c.message = "Loading chunk " + e + " failed.\n(" + n + ": " + u + ")", c.name = "ChunkLoadError", c.type = n, c.request = u, r[1](c) } o[e] = void 0 } }; var l = setTimeout((function () { u({ type: "timeout", target: a }) }), 12e4); a.onerror = a.onload = u, document.head.appendChild(a) } return Promise.all(t) }, i.m = e, i.c = n, i.d = function (e, t, r) { i.o(e, t) || Object.defineProperty(e, t, { enumerable: !0, get: r }) }, i.r = function (e) { "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }), Object.defineProperty(e, "__esModule", { value: !0 }) }, i.t = function (e, t) { if (1 & t && (e = i(e)), 8 & t) return e; if (4 & t && "object" == typeof e && e && e.__esModule) return e; var r = Object.create(null); if (i.r(r), Object.defineProperty(r, "default", { enumerable: !0, value: e }), 2 & t && "string" != typeof e) for (var n in e) i.d(r, n, function (t) { return e[t] }.bind(null, n)); return r }, i.n = function (e) { var t = e && e.__esModule ? function () { return e.default } : function () { return e }; return i.d(t, "a", t), t }, i.o = function (e, t) { return Object.prototype.hasOwnProperty.call(e, t) }, i.p = "/monthly-digest/", i.oe = function (e) { throw console.error(e), e }; var a = this["webpackJsonpmontyly-digest"] = this["webpackJsonpmontyly-digest"] || [], c = a.push.bind(a); a.push = t, a = a.slice(); for (var l = 0; l < a.length; l++)t(a[l]); var s = c; r() }([])</script>
+  <script src="/monthly-digest/static/js/2.3b4f50ce.chunk.js"></script>
+  <script src="/monthly-digest/static/js/main.017fabbf.chunk.js"></script>
+</body>
+
+</html>
