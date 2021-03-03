@@ -24,3 +24,7 @@ export interface Donation {
   icon: string,
   amount: number
 }
+
+export interface executable {
+  (): void
+}
