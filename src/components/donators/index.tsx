@@ -5,7 +5,7 @@ const Donators: FunctionComponent = () => (
   <div className="donators text-left bg-gray-100 rounded-sm py-3 px-8 md:py-6 md:px-16">
     <h4 className="text-xl font-medium text-gray-800">财政贡献者排行</h4>
     <h5 className="text-gray-500 mt-4">组织</h5>
-    <ol className="mt-2 grid grid-cols-2 gap-y-2">
+    <ol className="mt-2 grid grid-cols-1 md:grid-cols-2 gap-y-2">
       {
         donations.map((item, index) => (
           <li key={index} className="item flex">
